@@ -4,7 +4,6 @@ import ctypes
 import platform
 
 import sv_ttk
-# ### FIXED ###: Changed 'UtilityApp' to 'MasterTool' to match the class in app_window.py
 from app_window import MasterTool
 from utils.helpers import resource_path
 from utils.windows_api import apply_system_theme, set_dark_title_bar
